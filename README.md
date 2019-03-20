@@ -4,6 +4,7 @@ I am not responsible if you start a nuclear war or kill animals by installing th
 Start taking responsibility for your own sh$t
 
 ## Step 1
+```
 If (developer options not enabled)
 {
   1. Go to settings -> system -> aboutphone
@@ -14,7 +15,7 @@ else
 {
   1.Go to settings -> system -> developer options
 }
-
+```
 ## Step 2
 In developer options
   1. Enable oem unlock
@@ -30,6 +31,7 @@ In developer options
 3. Connect your phone to computer via usb cable
 4. In cmd  type > adb reboot bootloader 
 5. Hit Enter
+```
 6. If (this is your first time)
 {
   1. There will be a popup on your phone to allow usb debugging
@@ -40,6 +42,7 @@ else
 {
   Phone will directly reboot to bootloader screen showing FASTBOOT
 }
+```
 
 # Remove any lockscreen pin or passwords - Important !!!
 # All the app data will be wiped during oem unlock - Can't help it
@@ -47,6 +50,7 @@ else
 ## Step 5
 1. In the same cmd window type > fastboot oem unlock 
 2. Hit Enter
+```
 if (bootloader already unlocked)
 {
   1. It will display Device already unlocked -> OKAY -> FINISHED
@@ -56,6 +60,7 @@ else
   It will display OKAY -> FINISHED and the phone will restart
   2. Repeat ### Step 4
 }
+```
 
 ## Step 6
 1. Download recovery-3.2.1-2-oreo.img from resources folder
