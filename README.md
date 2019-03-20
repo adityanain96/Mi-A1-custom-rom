@@ -83,7 +83,7 @@ else
 9. Reboot -> System
 
 
-## Step 8 - optional
+## Step 8 - optional !!! GPay stops working with root
 1. Download magisk from resources folder
 2. Copy to phone -> Install -> Reboot -> System ::: Why no detailed instructions ? (You are an expert now)
 
